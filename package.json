@@ -1,0 +1,11 @@
+{
+  "name": "uuid-cloud-functions-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gcloud functions deploy helloworld --runtime nodejs10 --trigger-http --allow-unauthenticated"
+  },
+  "dependencies": {
+    "uuid": "^7.0.0"
+  }
+}
